@@ -1,0 +1,118 @@
+body {
+  margin: 0%;
+  padding: 0%;
+  font-family: "Noticia Text", serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Rowdies", cursive;
+  background-color: rgb(62, 62, 65);
+  color: white;
+}
+.container {
+  width: 80%;
+  height: 400px;
+  margin: auto;
+  margin-top: 100px;
+  text-align: center;
+}
+@media only screen and (min-width: 1200px){
+  .part-container {
+  height: 200px;
+  width: 30%;
+  margin-top: 50px;
+  margin-left: 25px;
+  float: left;
+  box-shadow: 10px 10px 40px black;
+  animation: boxanimation 2s ease-in both;
+}
+}
+
+.imagetop > img {
+  width: 100%;
+}
+.imagetop {
+  margin-top: 15%;
+  width: 100%;
+  margin-bottom: 20%;
+  border: 1px solid tomato;
+}
+.doted {
+  height: 1px;
+  width: 60%;
+  margin: auto;
+  background-color: tomato;
+}
+.left-image {
+  width: 15%;
+  margin-left: 5%;
+  margin-right: 5%;
+  float: left;
+  height: 100px;
+  background-image: black;
+}
+.rigth-text {
+  width: 100%;
+  text-align: left;
+}
+.topscale {
+  height: 1px;
+  width: 80%;
+  margin: auto;
+  background-color: red;
+  margin-bottom: 10px;
+}
+.polygon {
+  height: 20px;
+  width: 50%;
+  margin: auto;
+}
+.part {
+  width: 30%;
+  float: left;
+}
+h4 {
+  padding: 0;
+  margin: 0;
+}
+.triangle {
+  height: 0;
+  width: 0;
+  border-left: 50px solid red;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-top: 10px solid transparent;
+}
+.triangle1 {
+  height: 0;
+  width: 0;
+  border-right: 50px solid red;
+  border-left: 50px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-top: 10px solid transparent;
+}
+@keyframes boxanimation {
+  from {
+    opacity: 0%;
+    width: 0%;
+    height: 200px;
+    font-size: 0;
+  }
+  to {
+    font-size: 1rem;
+    opacity: 100%;
+    width: 30%;
+    height: 200px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+ .part-container {
+  height: 100%;
+  width:100%;
+  margin-top: 50px;
+  margin-left: 25px;
+  font-size: 5vh;
+  box-shadow: 10px 10px 40px black;
+  animation: boxanimation 2s ease-in both;
+}
+}
+
